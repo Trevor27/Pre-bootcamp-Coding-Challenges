@@ -1,6 +1,4 @@
-def my_function():
-    x = int(input("Enter a number: "))
-    y = int(input("Enter a number: "))
+def my_function(x,y):
 
     mySum = x + y    
 
@@ -10,4 +8,4 @@ def my_function():
     else:
         return False
 
-print(my_function())
+print(my_function(3,10))
