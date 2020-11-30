@@ -1,6 +1,4 @@
-def convert_time():
-
-    time = int(input("enter a number: "))
+def convert_time(time):
     
     hour = time // 60
 
@@ -14,4 +12,4 @@ def convert_time():
     else:
         print(str(hour) + " hours, " + str(minutes) + (" minutes"))
 
-convert_time()
+convert_time(122)
