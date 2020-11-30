@@ -1,16 +1,12 @@
-import math 
 
-def area_of_triangle():
-    a = int(input("enter 1st side length of the triangle: "))
-    b = int(input("enter 2nd side length of the triangle: "))
-    c = int(input("enter 3rd side length of the triangle: "))
+def area_of_triangle(a,b,c):
 
     s = (1/2)*(a + b + c)
   
     z = s*(s - a)*(s - b)*(s - c)
 
-    area = math.sqrt(z)
+    area = (z)**(1/2)
     
     print("The area of the triangle is: "+ str(area))
 
-area_of_triangle()
+area_of_triangle(4,5,6)
