@@ -1,16 +1,12 @@
-def max_num():
+def max_num(x,y,z):
 
-    x = input("Enter a number")
-    y = input("Enter a number") 
-    z = input("Enter a number")
-
-    if x > y and z:
+    if x > (y and z):
         print(x)
 
-    elif y > x and z:
+    elif y > (x and z):
         print(y)
 
     else:
         print(z)
 
-max_num()
+max_num(4,5,6)
