@@ -1,12 +1,8 @@
 def max_num(x,y,z):
-
     if x > (y and z):
-        print(x)
-
+        return x
     elif y > (x and z):
-        print(y)
-
+        return y
     else:
-        print(z)
-
-max_num(4,5,6)
+        return z
+print(max_num(4,5,6))
