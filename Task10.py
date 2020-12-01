@@ -1,9 +1,5 @@
-def vowels():
-
-    myString.lower()
-    
+def vowels(myString):
     for vowel in myString:
-        if vowel in 'aeiou':
+        if vowel in 'aeiouAEIOU':
             print(vowel)
-
 vowels("umuzi")
